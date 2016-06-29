@@ -188,7 +188,7 @@ class CalculatorBrain{
     }
     
    func clear() {
-        accumulator = 0.0
+        accumulator =  0.0
         pending = nil
         descriptionAccumulator = " "
         currentPrecedence = Int.max
